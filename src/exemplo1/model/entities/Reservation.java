@@ -1,11 +1,10 @@
-package model.entities;
+package exemplo1.model.entities;
 
-import model.exceptions.DomainException;
+import exemplo1.model.exceptions.DomainException;
 
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Locale;
 
 public class Reservation {
     public static LocalDate now = LocalDate.now();

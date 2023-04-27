@@ -1,13 +1,11 @@
-package application;
+package exemplo1.application;
 
-import model.entities.Reservation;
-import model.exceptions.DomainException;
+import exemplo1.model.entities.Reservation;
+import exemplo1.model.exceptions.DomainException;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
-import java.util.Date;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Program {
